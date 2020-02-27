@@ -18,3 +18,9 @@ Required components :
     - 10Kohms resistor
     - 16Mhz quartz
     - FTDI board for usb interface
+
+Scehmatics :
+
+/!\ Ground and vcc of the lcd aren't connected to the arduino but they must be !
+
+![alt text](https://github.com/Ulyuuu/ums/blob/master/Github_images/arduino_schematic.png)
