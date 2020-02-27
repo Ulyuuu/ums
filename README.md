@@ -27,7 +27,7 @@ In my case, I am not using aduino but directly the ATMega328p chip on a pcb (The
 
 With the ATMega328p the circuit is the same but you need to connect the FTDI board to Reset, RX and TX
 
-![alt text](https://github.com/Ulyuuu/ums/blob/master/Github_images/atmega328p.jpg)
+![alt text](https://github.com/Ulyuuu/ums/blob/master/Github_images/atmega328p.jpg =250x250)
 
 /!\ If you wand to use the color controller, red is connected to pin 11, green to pin 12 and blue to pin 13
 
