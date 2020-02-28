@@ -1,7 +1,7 @@
-# ums
+# Ulyu Monitoring System
 Ums (ulyu monitoring system) is a system allowing to display in real time the temperature, voltage and frequency sensors of a computer on a screen coupled to an arduino.
-Ums works with Open Hradware Monitor and a program in python. It's also able to controlling a simple rgb led strip (the color will be the same over the entire length) with a very simple but functional control panel.
-In my case, I am not using aduino but directly the ATMega328p chip on a pcb (The components which are around the chip and the FTDI (the red plate between the USB and the circuit) will not be necessary if you only used one arduino and the two 16x2 screens)
+Ums works with Open Hradware Monitor and a python program. It's able to controlling a simple rgb led strip (the color will be the same over the entire length) with a very simple but functional control panel.
+In my case, I am not using aduino but directly the ATMega328p chip on a pcb (The components around the chip and the FTDI (the red plate between the USB and the circuit) will not necessary if you only used one arduino and two 16x2 screens)
 
 ![alt text](https://github.com/Ulyuuu/ums/blob/master/Github_images/IMG_0388.jpg)
 
@@ -19,7 +19,7 @@ In my case, I am not using aduino but directly the ATMega328p chip on a pcb (The
     - 16Mhz quartz
     - FTDI board for usb interface
 
-# Scehmatics :
+# Schematics :
 
 /!\ Ground and vcc of the lcd aren't connected to the arduino but they must be !
 
@@ -41,6 +41,28 @@ With the ATMega328p the circuit is the same but you need to connect the FTDI boa
 - 6: Save program
 - 7: Open OpenHradwareMonitor (download it from https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.1.zip)
 - 8: Open python program
-- 9: Done ! you cane now change strip's color if you connect it to the arduino and you can quit Ums
+- 9: Done ! you cane now change strip's color (the window must remain open otherwise the arduino will disonnect)
 
 ![alt text](https://github.com/Ulyuuu/ums/blob/master/Github_images/ums_program.png)
+
+# Install python librairies
+
+Python download : https://www.python.org/downloads/
+
+To install the following librairies by W+R > cmd > type the following command
+
+- Tkinter : **python -m pip install tkinter**
+- Serial : **python -m pip install pyserial**
+- Time : **python -m pip install time**
+- wmi : **python -m pip install wmi**
+- pywin32 : **python -m pip install pywin32** (restart computer)
+
+# Coming soon for v1.1
+
+- .exe version to no longer need python and all of its libraries
+- Com port change in the UI
+- windowed UI
+
+# Some images
+
+<img src="https://github.com/Ulyuuu/ums/blob/master/Github_images/IMG_0391.JPG" alt="alt text" width="250" height="200">
