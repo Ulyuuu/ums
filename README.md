@@ -65,4 +65,4 @@ To install the following librairies by W+R > cmd > type the following command
 
 # Some images
 
-<img src="https://github.com/Ulyuuu/ums/blob/master/Github_images/IMG_0391.JPG" alt="alt text" width="250" height="200">
+<img src="https://github.com/Ulyuuu/ums/blob/master/Github_images/IMG_0391.JPG" alt="alt text" width="250" height="200"> <img src="https://github.com/Ulyuuu/ums/blob/master/Github_images/IMG_0390.png" alt="alt text" width="250" height="200">
